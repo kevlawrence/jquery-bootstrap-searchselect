@@ -23,8 +23,8 @@ And second, the jQuery to get it going.
 			placeholderText: 'Name, title...',
 			displayFormat: "item.name+' - '+item.title",
 			editable: true,
-			defaultDisplay: "Some default display for the given default value",
-			defaultValue: 123
+			defaultDisplay: "Richard Branson",
+			defaultValue: 1
 		});
 
 An example output from the `users/search` url above, which you need to implement on your server side.
@@ -38,7 +38,7 @@ An example output from the `users/search` url above, which you need to implement
       {
         "id":2,
         "name":"Mick Jagger",
-        "email":"Employee"
+        "title":"Employee"
       }
     ]
 
